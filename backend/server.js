@@ -16,14 +16,15 @@ app.use("/api", router)
 
 app.listen(PORT, () => {
     connectDB();
-    console.log("server startss at 5000")
+    console.log("server startss at PORT", PORT)
 })
 
 
 // project name mongo: mern-add-product
 
 //https://www.youtube.com/watch?v=O3BUHwfHf84&ab_channel=freeCodeCamp.org
-//55
+//58
+//just api not connected with frontend
 
 //jsut for refrecne as it not a proudction website
 //MONGO_URI = mongodb+srv://chhetrivision_db_user:s3x8n3eKLFvAymuw@cluster0.idakmzl.mongodb.net/products?retryWrites=true&w=majority&appName=Cluster0
